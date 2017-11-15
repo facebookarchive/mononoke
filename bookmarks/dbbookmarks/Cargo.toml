@@ -1,0 +1,15 @@
+[package]
+name = "dbbookmarks"
+version = "0.0.1"
+authors = ["Facebook"]
+license = "GPLv2+"
+
+[dependencies]
+ascii = "0.8.6"
+error-chain = "0.11.0"
+futures = "0.1.17"
+mysql = "12.0.3"
+mysql_async = "0.12.1"
+tokio-core = "0.1.10"
+
+bookmarks = { path = ".." }

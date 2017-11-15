@@ -1,0 +1,51 @@
+[workspace]
+members = [
+    # Build error.
+    #"async-compression",
+    "asyncmemo",
+    # Missing manifoldblob crate.
+    #"blobrepo",
+    "blobstore",
+    "blobstore/fileblob",
+    "blobstore/memblob",
+    # Error building rocksdb dependency.
+    #"blobstore/rocksblob",
+    "bookmarks",
+    # Missing db crate.
+    #"bookmarks/dbbookmarks",
+    "bookmarks/filebookmarks",
+    "bookmarks/membookmarks",
+    "bookmarks/stockbookmarks",
+    # Blocked on blobrepo.
+    #"eden_server",
+    "futures-ext",
+    "heads",
+    "heads/fileheads",
+    "heads/memheads",
+    # Blocked on sshrelay.
+    #"hgcli",
+    # Blocked on mercurial.
+    #"hgproto",
+    # Missing hlua_futures crate.
+    #"hooks",
+    "linknodes",
+    "linknodes/filelinknodes",
+    "linknodes/memlinknodes",
+    # Blocked on async-compression.
+    #"mercurial-bundles",
+    "mercurial-types",
+    # Build error in revlog/parser.rs.
+    #"mercurial",
+    # Blocked on mercurial.
+    #"metaconfig",
+    "repoinfo",
+    "revset",
+    # Missing slog_glog_fmt crate.
+    #"server",
+    # Missing symbols in netstring crate.
+    #"sshrelay",
+    "storage/filekv",
+    "storage/types",
+    "vfs",
+]
+

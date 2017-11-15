@@ -1,0 +1,16 @@
+[package]
+name = "filelinknodes"
+version = "0.0.1"
+authors = ["Facebook"]
+license = "GPLv2+"
+
+[dependencies]
+futures = "0.1.17"
+futures-cpupool = "0.1.7"
+percent-encoding = "1.0.1"
+
+filekv = { path = "../../storage/filekv" }
+futures-ext = { path = "../../futures-ext" }
+linknodes = { path = ".." }
+mercurial-types = { path = "../../mercurial-types" }
+storage-types = { path = "../../storage/types" }

@@ -1,0 +1,10 @@
+[package]
+name = "memblob"
+version = "0.0.1"
+authors = ["Facebook"]
+license = "GPLv2+"
+
+[dependencies]
+futures = "0.1.17"
+
+blobstore = { path = ".." }
