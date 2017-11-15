@@ -18,7 +18,7 @@ extern crate itertools;
 #[macro_use]
 extern crate lazy_static;
 extern crate rand;
-extern crate rust_crypto;
+extern crate crypto;
 #[macro_use]
 extern crate url;
 

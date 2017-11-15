@@ -9,8 +9,8 @@ use std::str::FromStr;
 
 use ascii::{AsciiStr, AsciiString};
 use quickcheck::{single_shrinker, Arbitrary, Gen};
-use rust_crypto::digest::Digest;
-use rust_crypto::sha1;
+use crypto::digest::Digest;
+use crypto::sha1;
 
 use errors::*;
 
