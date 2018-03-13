@@ -17,6 +17,6 @@ out/
 # Vscode files
 .vscode/
 
-target
+target/
 Cargo.lock
-*.bk
+**/*.rs.bk
