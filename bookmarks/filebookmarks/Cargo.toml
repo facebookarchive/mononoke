@@ -1,0 +1,17 @@
+[package]
+name = "filebookmarks"
+version = "0.0.1"
+authors = ["Facebook"]
+license = "GPLv2+"
+
+[dependencies]
+error-chain = "0.11.0"
+futures = "0.1.17"
+futures-cpupool = "0.1.7"
+percent-encoding = "1.0.1"
+serde = "1.0.20"
+
+bookmarks = { path = ".." }
+filekv = { path = "../../storage/filekv" }
+futures-ext = { path = "../../futures-ext" }
+storage-types = { path = "../../storage/types" }

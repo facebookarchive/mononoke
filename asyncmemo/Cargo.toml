@@ -1,0 +1,10 @@
+[package]
+name = "asyncmemo"
+version = "0.0.1"
+authors = ["Facebook"]
+license = "GPLv2+"
+
+[dependencies]
+futures = "0.1.17"
+heapsize = "0.4.1"
+linked-hash-map = "0.5.0"

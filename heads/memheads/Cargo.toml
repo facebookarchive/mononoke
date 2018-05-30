@@ -1,0 +1,11 @@
+[package]
+name = "memheads"
+version = "0.0.1"
+authors = ["Facebook"]
+license = "GPLv2+"
+
+[dependencies]
+futures = "0.1.17"
+
+futures-ext = { path = "../../futures-ext" }
+heads = { path = ".." }

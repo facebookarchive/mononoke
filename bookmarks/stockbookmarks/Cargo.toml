@@ -1,0 +1,15 @@
+[package]
+name = "stockbookmarks"
+version = "0.0.1"
+authors = ["Facebook"]
+license = "GPLv2+"
+
+[dependencies]
+ascii = "0.8.6"
+error-chain = "0.11.0"
+futures = "0.1.17"
+
+bookmarks = { path = ".." }
+futures-ext = { path = "../../futures-ext" }
+mercurial-types = { path = "../../mercurial-types" }
+storage-types = { path = "../../storage/types" }

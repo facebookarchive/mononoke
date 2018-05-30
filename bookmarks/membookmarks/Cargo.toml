@@ -1,0 +1,12 @@
+[package]
+name = "membookmarks"
+version = "0.0.1"
+authors = ["Facebook"]
+license = "GPLv2+"
+
+[dependencies]
+futures = "0.1.17"
+
+bookmarks = { path = ".." }
+futures-ext = { path = "../../futures-ext" }
+storage-types = { path = "../../storage/types" }

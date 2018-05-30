@@ -1,0 +1,13 @@
+[package]
+name = "linknodes"
+version = "0.0.1"
+authors = ["Facebook"]
+license = "GPLv2+"
+
+[dependencies]
+error-chain = "0.11.0"
+futures = "0.1.17"
+serde = "1.0.20"
+serde_derive = "1.0.20"
+
+mercurial-types = { path = "../mercurial-types" }
