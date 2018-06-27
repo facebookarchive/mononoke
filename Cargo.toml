@@ -17,5 +17,6 @@ members = [
     # "hgcli",
     # "hgproto",
     # "hooks",
+    # "mercurial-types",
     "storage/types",
 ]
