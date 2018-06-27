@@ -2,6 +2,7 @@
 members = [
     "asyncmemo",
     # depends on failure_ext
+    # "blobrepo",
     # "bookmarks",
     # "bundle2-resolver",
     "bytes-ext",
