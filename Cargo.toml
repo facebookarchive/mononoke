@@ -3,6 +3,7 @@ members = [
     "asyncmemo",
     # depends on failure_ext
     # "bookmarks",
+    # "bundle2-resolver",
     "futures-ext",
     "storage/types",
 ]
