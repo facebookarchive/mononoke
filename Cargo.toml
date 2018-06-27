@@ -15,5 +15,6 @@ members = [
     "futures-ext",
     # depends on failure_ext
     # "hgcli",
+    # "hgproto",
     "storage/types",
 ]
