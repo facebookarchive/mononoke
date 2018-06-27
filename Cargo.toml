@@ -16,5 +16,6 @@ members = [
     # depends on failure_ext
     # "hgcli",
     # "hgproto",
+    # "hooks",
     "storage/types",
 ]
