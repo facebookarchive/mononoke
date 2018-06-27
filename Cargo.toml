@@ -13,5 +13,7 @@ members = [
     # "eden_server",
     # "filenodes",
     "futures-ext",
+    # depends on failure_ext
+    # "hgcli",
     "storage/types",
 ]
