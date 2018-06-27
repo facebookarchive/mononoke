@@ -11,6 +11,7 @@ members = [
     # "blobstore",
     # "bookmarks",
     # "bundle2-resolver",
+    # "bonsai-utils",
     "bytes-ext",
     # depends on failure_ext
     # "changesets",
