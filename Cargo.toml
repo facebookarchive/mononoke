@@ -25,6 +25,7 @@ members = [
     # "revset",
     # "server",
     # "storage/filekv",
+    # "vfs",
     # depends on netstring crate internal at fb
     # "sshrelay",
     "storage/types",
