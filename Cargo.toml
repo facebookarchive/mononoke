@@ -11,6 +11,7 @@ members = [
     # "changesets",
     # "common/pylz4",
     # "eden_server",
+    # "filenodes",
     "futures-ext",
     "storage/types",
 ]
