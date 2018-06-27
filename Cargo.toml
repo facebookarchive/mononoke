@@ -1,5 +1,7 @@
 [workspace]
 members = [
+    # actix_web depends on httparse which uses nightly features
+    # "apiserver",
     # build error related to tokio_io::AsyncWrite
     # "async-compression",
     # "mercurial-bundles",
