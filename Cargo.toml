@@ -23,5 +23,6 @@ members = [
     # "mononoke-types",
     # "repoinfo",
     # "revset",
+    # "server",
     "storage/types",
 ]
