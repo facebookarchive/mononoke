@@ -1,6 +1,8 @@
 [workspace]
 members = [
     "asyncmemo",
+    # depends on failure_ext
+    # "bookmarks",
     "futures-ext",
     "storage/types",
 ]
