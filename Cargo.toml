@@ -19,5 +19,6 @@ members = [
     # "hooks",
     # "mercurial-types",
     # "mercurial",
+    # "metaconfig",
     "storage/types",
 ]
