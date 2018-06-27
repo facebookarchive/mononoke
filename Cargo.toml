@@ -22,5 +22,6 @@ members = [
     # "metaconfig",
     # "mononoke-types",
     # "repoinfo",
+    # "revset",
     "storage/types",
 ]
