@@ -4,6 +4,7 @@ members = [
     # depends on failure_ext
     # "bookmarks",
     # "bundle2-resolver",
+    "bytes-ext",
     "futures-ext",
     "storage/types",
 ]
