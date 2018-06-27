@@ -24,6 +24,7 @@ members = [
     # "repoinfo",
     # "revset",
     # "server",
+    # "storage/filekv",
     # depends on netstring crate internal at fb
     # "sshrelay",
     "storage/types",
