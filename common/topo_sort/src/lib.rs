@@ -7,9 +7,8 @@
 #![deny(warnings)]
 
 use std::{
-    collections::{HashMap, HashSet},
+    collections::HashMap,
     hash::Hash,
-    iter,
 };
 
 /// Sort nodes of DAG topologically. Implemented as depth-first search with tail-call
@@ -32,11 +31,7 @@ where
     let mut marks = HashMap::new();
     let mut stack = Vec::new();
     let mut output = Vec::new();
-    for node in dag
-        .iter()
-        .flat_map(|(n, ns)| iter::once(n).chain(ns))
-        .collect::<HashSet<_>>()
-    {
+    for (node, _) in dag {
         stack.push(Action::Visit(node));
         while let Some(action) = stack.pop() {
             match action {
